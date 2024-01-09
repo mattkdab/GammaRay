@@ -31,28 +31,50 @@ set_target_properties(gammaray_lz4 PROPERTIES POSITION_INDEPENDENT_CODE ON)
 # Shared non-UI code between probe and client
 #
 set(gammaray_common_srcs
-    methodargument.cpp
-    objectbroker.cpp
-    protocol.cpp
-    message.cpp
-    endpoint.cpp
-    paths.cpp
-    propertysyncer.cpp
-    modelevent.cpp
-    modelutils.cpp
-    objectidfilterproxymodel.cpp
-    paintanalyzerinterface.cpp
-    selflocator.cpp
-    sourcelocation.cpp
-    translator.cpp
-    enumdefinition.cpp
-    enumrepository.cpp
-    enumvalue.cpp
     classesiconsrepository.cpp
-    remoteviewinterface.cpp
-    remoteviewframe.cpp
-    transferimage.cpp
+    classesiconsrepository.h
     commonutils.cpp
+    commonutils.h
+    endpoint.cpp
+    endpoint.h
+    enumdefinition.cpp
+    enumdefinition.h
+    enumrepository.cpp
+    enumrepository.h
+    enumvalue.cpp
+    enumvalue.h
+    message.cpp
+    message.h
+    methodargument.cpp
+    methodargument.h
+    modelevent.cpp
+    modelevent.h
+    modelutils.cpp
+    modelutils.h
+    objectbroker.cpp
+    objectbroker.h
+    objectidfilterproxymodel.cpp
+    objectidfilterproxymodel.h
+    paintanalyzerinterface.cpp
+    paintanalyzerinterface.h
+    paths.cpp
+    paths.h
+    propertysyncer.cpp
+    propertysyncer.h
+    protocol.cpp
+    protocol.h
+    remoteviewframe.cpp
+    remoteviewframe.h
+    remoteviewinterface.cpp
+    remoteviewinterface.h
+    selflocator.cpp
+    selflocator.h
+    sourcelocation.cpp
+    sourcelocation.h
+    transferimage.cpp
+    transferimage.h
+    translator.cpp
+    translator.h
 )
 
 add_library(

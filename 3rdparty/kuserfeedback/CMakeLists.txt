@@ -9,6 +9,8 @@ set(gammaray_userfeedback_srcs
     core/compilerinfosource.cpp
     core/feedbackconfiguicontroller.cpp
     core/openglinfosource.cpp
+    core/openglinfosource.h
+    core/openglinfosource_p.h
     core/platforminfosource.cpp
     core/provider.cpp
     core/qtversionsource.cpp
